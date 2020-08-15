@@ -1,0 +1,33 @@
+Practical multi-level sorting: 
+------------------------------ 
+1. Create a file of 50 lines with random domain names of varying top-level-domain name (TLDs)
+
+2. With each line containing a domain name of varying TLDs (com net org net cc biz co.uk): Example, unsorted lines: 
+        google.com 
+        yahoo.com 
+        something.net 
+        pbs.org 
+        enduranceinternational.com 
+        google.co.uk
+        www.pbs.org
+        store.pbs.org
+
+3. Write a small perl program to load the file into memory and sort the 30 lines of domains
+
+4. Sort the ending (TLDs) first in alphabetical order on TLD first, then full domain name in alphabetical order second.  The subdomain should be considered last when sorting, so list would appears like so
+
+        Example, sort lines: 
+        nicoleg.cc
+        google.co.uk
+        enduranceinternational.com 
+        google.com 
+        yahoo.com  
+        something.net 
+        pbs.org
+        store.pbs.org
+        www.pbs.org
+
+Submitted back to us should be at least 3 files:
+    1. The input list of domains
+    2. The output list of sorted domains
+    3. The script (or scripts) written in order to accomplish the task.
